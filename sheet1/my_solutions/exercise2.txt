@@ -1,6 +1,0 @@
-Flag: 0x2c81fdff846f210
-
-- gdb exercise, dann b main zum Setzen eines Breakpoints und r zum Starten
-- 2x next zum Erreichen und Ausführen der scramble Funktion
-- Return Wert der Funktion steht im RAX Register, ist gesuchte Flag
-

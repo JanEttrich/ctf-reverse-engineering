@@ -1,3 +1,0 @@
-
-include BuildConfig
-include GenericMakefile
