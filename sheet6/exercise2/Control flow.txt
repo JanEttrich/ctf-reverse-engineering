@@ -1,0 +1,16 @@
+Öffne . dir -> success, fd in Var1
+
+Öffne xxx at Var1 -> failure
+
+Erstelle xxx at Var1 -> success
+
+Öffne xxx at Var1 -> success, fd in Var2
+
+Öffne result.bin at Var2 -> failure
+
+Öffne yyy=.. at Var2 -> success, fd in Var1
+
+Öffne result.bin at Var1 -> sucess, fd in Var2
+
+mmap auf Var2
+

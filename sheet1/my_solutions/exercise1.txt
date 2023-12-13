@@ -1,0 +1,6 @@
+Der Code gibt zurück, ob ein übergebenes, null-terminiertes (Char-)Array ein Palindrom ist.
+Anfangsadresse ist gespeichert in rdi
+Label l0: Läuft bis zum Ende des Arrays und speichert letzte Speicheradresse in rsi
+Label l2: Vergleicht iterativ linkesten und rechtesten nicht geprüften Wert, bis sich die Pointer treffen
+Wenn einer der Vergleiche fehl schlägt -> kein Palindrom, Ausgabe 0
+Wenn alle Vergleiche durchlaufen -> Palindrom

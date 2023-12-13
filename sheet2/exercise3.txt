@@ -1,0 +1,7 @@
+To prevent buffer overflows, boundary checks of buffers should always be performed before writing
+data into them. This can be archieved by using safe functions like fgets() or strncpy(), which use
+a parameter "size" for restricting the number of bytes written into a buffer.
+Unsafe functions like gets() should be avoided.
+Additionally, the stack can be protected by using stack canaries, which serve as guards to the
+function return pointer. If the return pointer is overwritten, the canary is overwritten as well
+due to the stack layout, so overflows can be detected
